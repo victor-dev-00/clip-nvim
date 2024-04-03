@@ -55,5 +55,27 @@ chmod +x install_win32yank.sh
 ```sh
 ./install.sh
 ```
+## Neovim config
+
+1. Open the init.lua file in a text editor.
+
+2. Copy and paste the following code:
+```sh
+require("win32yank").setup()
+```sh
+    vim.g.clipboard = {
+        name = "win32yank-wsl",
+        copy = {
+            ["+"] = "win32yank.exe -i --crlf",
+            ["*"] = "win32yank.exe -i --crlf",
+        },
+        paste = {
+            ["+"] = "win32yank.exe -o --lf",
+            ["*"] = "win32yank.exe -o --lf",
+        },
+        cache_enabled = true,
+    }
+```
+
 
 Clipboard tweak for neovim.
