@@ -61,7 +61,6 @@ chmod +x install_win32yank.sh
 
 2. Copy and paste the following code:
 ```sh
-require("win32yank").setup()
 ```sh
     vim.g.clipboard = {
         name = "win32yank-wsl",
