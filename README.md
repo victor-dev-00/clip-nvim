@@ -43,16 +43,17 @@ Win32yank is a utility that allows you to interact with the Windows clipboard fr
 1. Ensure you have `wget` and `unzip` installed on your system.
 
 2. Download the script:
-https://github.com/victor-dev-00/clip-nvim/blob/main/install.sh
-
+```sh
+wget https://github.com/victor-dev-00/clip-nvim/blob/main/install.sh
+```
 
 3. Make the script executable:
-
+```sh
 chmod +x install_win32yank.sh
-
+```
 4. Execute the script:
-
+```sh
 ./install.sh
-
+```
 
 Clipboard tweak for neovim.
