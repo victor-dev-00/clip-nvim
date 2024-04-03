@@ -1,5 +1,4 @@
 
-# clip-nvim
 
 ## Prerequisites
 
