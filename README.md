@@ -44,7 +44,7 @@ Win32yank is a utility that allows you to interact with the Windows clipboard fr
 
 2. Download the script:
 ```sh
-wget https://github.com/victor-dev-00/clip-nvim/blob/main/install.sh
+wget -O install.sh https://raw.githubusercontent.com/victor-dev-00/clip-nvim/main/install.sh
 ```
 
 3. Make the script executable:
